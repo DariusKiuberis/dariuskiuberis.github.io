@@ -1,7 +1,7 @@
 {
   "name": "react-ts-start",
   "version": "0.1.0",
-  "homepage": "https://dariuskiuberis.github.io/dariuskiuberis.github.io",
+  "homepage": "https://dariuskiuberis.github.io",
   "private": true,
   "dependencies": {
     "@darius-kiuberis/helper": "^1.0.13",
@@ -38,7 +38,7 @@
     "prettier:format": "prettier --config .prettierrc.json 'src/**/*.ts' --write",
     "prepare": "husky install",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
