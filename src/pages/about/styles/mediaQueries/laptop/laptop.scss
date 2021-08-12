@@ -1,9 +1,0 @@
-@import "../../../../../styles/scss/global/mediaQueries/queries.scss";
-
-@media (min-width: $breakpoint-laptop) and (max-width: $breakpoint-monitor)  {
-    .blog-content-container {
-        // border: 10px solid black;
-        max-width: 80%;
-    }
-
-}
